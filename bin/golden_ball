@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require 'golden_ball'
+GoldenBall::CLI.start

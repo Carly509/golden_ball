@@ -1,6 +1,9 @@
-require "golden_ball/version"
+require 'nokogiri'
+ require 'open-uri'
+ require 'pry'
 
-module GoldenBall
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require_relative "./golden_ball/version"
+require_relative "./golden_ball/cli"
+require_relative "./golden_ball/top"
+
+
